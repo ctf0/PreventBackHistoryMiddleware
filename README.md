@@ -1,4 +1,3 @@
-# PreventBackHistoryMiddleware
 http://way2php.com/prevent-browser-back-button-logout-laravel-5-3/
 
 - save file to `app/Http/Middleware/PreventBackHistoryMiddleware.php`
