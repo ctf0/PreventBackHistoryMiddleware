@@ -6,11 +6,3 @@ http://way2php.com/prevent-browser-back-button-logout-laravel-5-3/
 ```php
 \App\Http\Middleware\PreventBackHistoryMiddleware::class,
 ```
-
-- and now group ur routes into
-
-```php
-Route::group(['middleware' => ['revalidate']], function () {
-    // routes
-});
-```
